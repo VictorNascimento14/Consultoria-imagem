@@ -20,7 +20,7 @@ const Services = () => {
       <div className={styles.servicesGrid}>
         <div className={styles.serviceCard}>
           <div className={styles.serviceImagePlaceholder} style={{ height: '450px' }}>
-            <img src="/public/foto3.png" alt="" />
+            <img src="/foto3.png" alt="" />
           </div>
           <div className={styles.serviceCardContent}>
             <h3>Análise de estilo pessoal</h3>
@@ -33,7 +33,7 @@ const Services = () => {
         
         <div className={styles.serviceCard}>
           <div className={styles.serviceImagePlaceholder} style={{ height: '450px' }}>
-            <img src="/public/foto1.png" alt="" />
+            <img src="/foto1.png" alt="" />
           </div>
           <div className={styles.serviceCardContent}>
             <h3>Consultoria de guarda-roupa</h3>
@@ -46,7 +46,7 @@ const Services = () => {
         
         <div className={styles.serviceCard}>
           <div className={styles.serviceImagePlaceholder} style={{ height: '450px' }}>
-            <img src="/public/foto2.png" alt="" />
+            <img src="/foto2.png" alt="" />
           </div>
           <div className={styles.serviceCardContent}>
             <h3>Preparação para momentos importantes</h3>
