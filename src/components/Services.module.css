@@ -1,0 +1,132 @@
+.services {
+  background-color: #24201C;
+  padding: 100px 50px;
+  margin: 0;
+}
+
+.services h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.serviceCard {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px #ffb6c133;
+}
+
+.serviceImagePlaceholder {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+
+.serviceImagePlaceholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceCardContent {
+  padding: 30px;
+}
+
+.serviceCardContent h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.serviceCardContent p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.servicesButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btnPrimary {
+  background-color: #5c5747;
+  color: #ffffff;
+  padding: 15px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-block;
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(92, 87, 71, 0.4);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 15px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+.btnSecondary:hover {
+  background-color: #ffffff;
+  color: #2d1b1b;
+}
+
+.btnSmall {
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  .services {
+    padding: 100px 20px;
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -1,0 +1,21 @@
+.sydneyImagePlaceholder {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin: 0px auto; /* centraliza */
+  padding: 0;
+  object-fit: cover;
+  object-position: center;
+  background-image: url(/public/foto4.jpg);
+}
+.sydneyImagePlaceholder img {
+  width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
